@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+function TopSec(){
+
+  return(
+      <div className="image-container">
+      
+       <h1 className="heading">Welcome to Team 25A's Task Management System</h1>
+          {/* <p>This tool was created with the use of figma,html,react,javascript and c#,sql for the backend. <br />This program represents a simple task management system that allows a user to create , <br />view, delete and update a task. This is possible by using api’s that were created on the c# <br />side and it is connecting to a database that stores these values. </p> */}
+          <h3>TO GET STARTED PRESS HERE!</h3>
+          <a className="h" href="https://www.altcademy.com/blog/how-to-add-hyperlink-to-button-in-reactjs/">
+          <button >
+          <i className="fa fa-play" style={{ color: "#000714" }}></i> CLICK ME!
+          </button>
+          </a>
+          {/* <img className ="redImage"src={Sprinters} alt="Team25A" />  */}
+      </div>
   );
 }
 
-export default App;
+export default TopSec
